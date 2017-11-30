@@ -2,6 +2,12 @@
 %some overlap. Use two different methods to align them - the first based on
 %pixel values in the original images and the second using the fourier
 %transform of the images. In both cases, display your results. 
+%GB comments
+1.	80 Main problem is that you need to incorporate a script that finds the indices (or positions) of pixels that exhibit minimal differences in the pixel intensities. 
+2.	100
+overall: 90
+
+
 
 img1 = imread('img1.tif');
 img2 = imread('img2.tif');
